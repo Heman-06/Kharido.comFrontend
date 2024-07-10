@@ -1,0 +1,37 @@
+.et1 {
+    display: flex;
+
+}
+
+.et2 {
+    flex: 1;
+    border-right: 1px solid black;
+}
+
+.et3 {
+    flex: 3;
+    padding: 90px;
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    .et1 {
+        display: flex;
+    
+    }
+    
+    .et2 {
+        flex: 1;
+        border-right: 1px solid black;
+    }
+    
+    .et3 {
+        flex: 3;
+        padding: 90px;
+    
+    }
+    
+}

@@ -1,0 +1,31 @@
+.cc1 {
+    margin: 20px 20px;
+    width: 300px;
+}
+
+.cc2 {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.cc2 span {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cc2 h5 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cc3 button {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cc3 {
+    display: flex;
+    justify-content: center;
+}

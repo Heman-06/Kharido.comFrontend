@@ -1,0 +1,42 @@
+.alp1 {
+    display: flex;
+
+}
+
+.alp2 {
+    flex: 0.3;
+}
+
+.alp3 {
+    flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .alp1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alp2 {
+        flex: 0.3;
+    }
+
+    .alp3 {
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .alp1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .alp2 {
+        width: 30%;
+    }
+
+    .alp3 {
+        width: 70%;
+    }
+}

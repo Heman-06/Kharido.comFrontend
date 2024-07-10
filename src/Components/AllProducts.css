@@ -1,0 +1,103 @@
+.ap1 {
+    background-color: rgba(227, 229, 231, 0.579);
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+}
+
+.ap2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ap2 span {
+    font-size: 17px;
+}
+
+.ap2 select {
+    height: 40px;
+    width: auto;
+    padding: 5px;
+}
+
+.ap3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 0px;
+    gap: 30px 0px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .ap1 {
+        background-color: rgba(227, 229, 231, 0.579);
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ap2 {
+        display: flex;
+        gap: 10;
+        width: 85vw;
+    }
+
+    .ap2 span {
+        font-size: 17px;
+    }
+
+    .ap2 select {
+        height: 40px;
+        width: auto;
+        padding: 5px;
+    }
+
+    .ap3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px 20px;
+        gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .ap1 {
+        background-color: rgba(227, 229, 231, 0.579);
+        height: 100%;
+        width: 100%;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ap1 p {
+        text-align: left !important;
+    }
+
+    .ap2 {
+        display: flex;
+        gap: 10;
+        width: 60vw;
+    }
+
+    .ap2 span {
+        font-size: 17px;
+    }
+
+    .ap2 select {
+        height: 40px;
+        width: auto;
+        padding: 5px;
+    }
+
+    .ap3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px 20px;
+        gap: 20px;
+    }
+}

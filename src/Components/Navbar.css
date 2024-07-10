@@ -1,0 +1,147 @@
+nav {
+    background-color: #343333;
+    color: #fff;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.hmb {
+    display: none;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nv1 span {
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nv1 {
+        display: none;
+    }
+
+    .hmb {
+        width: 100vw;
+        gap: 0px;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hmb span {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hmb button {
+        height: 40px;
+        width: 40px;
+        z-index: 2;
+    }
+
+    .hmb h4 {
+        font-size: 30px;
+    }
+
+    nav {
+        position: relative;
+        padding: 0px 0px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+        gap: 40px;
+        top: 0px;
+        z-index: 1;
+        padding-top: 40px;
+        background-color: black;
+        height: 100vh;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nv1 span {
+        font-size: 45px;
+        font-style: oblique;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .nv1 {
+        display: none;
+    }
+
+    .hmb {
+        width: 100vw;
+        gap: 0px;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hmb span {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hmb button {
+        height: 40px;
+        width: 40px;
+        z-index: 2;
+    }
+
+    .hmb h4 {
+        font-size: 28px;
+
+    }
+
+    nav {
+        position: relative;
+        padding: 0px 0px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+        gap: 30px;
+        top: 0px;
+        z-index: 1;
+        padding-top: 40px;
+        background-color: black;
+        height: 50vh;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+
+}

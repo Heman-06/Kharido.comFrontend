@@ -1,0 +1,395 @@
+.dtl1 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 0px;
+}
+
+.dtl2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dtl21 {
+    border: 2px solid black;
+    height: 450px;
+    width: 500px;
+}
+
+.dtl21 img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.dtl22 {
+    display: flex;
+    gap: 34px;
+}
+
+.dtl22 span {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.dtl3 {
+    flex: 1;
+}
+
+.dtl30 input {
+    margin: 25px 6px;
+    height: 15px;
+    width: 15px;
+}
+
+.dtl31 {
+    display: flex;
+
+}
+
+.dtl32 {
+    flex: 1;
+}
+
+.dtl33 {
+    flex: 13;
+}
+
+.dtl32 button {
+    height: 40px;
+    width: 40px;
+}
+
+.dtl33 button {
+    height: 40px;
+    width: 250px;
+}
+
+.dtlp1 {
+    color: darkgrey;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.dtlp2 {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.dtlp3 {
+    font-size: 35px;
+    margin: 0;
+    line-height: 43px;
+    font-weight: 500;
+}
+
+.dtlp4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.dtlp5 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.nav-link {
+    min-width: 200px;
+    height: 50px;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: red !important;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.dtl4{
+    padding: 20px 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .dtl1 {
+        display: flex;
+        justify-content: flex-start;
+        padding: 40px 0px;
+        flex-direction: column;
+    }
+
+    .dtl2 {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .dtl21 {
+        border: 2px solid black;
+        height: 290px;
+        width: 300px;
+        margin-bottom: 20px;
+        
+    }
+
+    .dtl21 img {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        
+    }
+
+
+    .dtl22 {
+        display: flex;
+        gap: 34px;
+        
+    }
+
+    .dtl22 span {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        
+    }
+
+    .dtl3 {
+        flex: 1;
+        
+    }
+
+    .dtl30 input {
+        margin: 25px 6px;
+        height: 15px;
+        width: 15px;
+    }
+
+    .dtl31 {
+        display: flex;
+    }
+
+    .dtl32 {
+        flex: 1;
+    }
+
+    .dtl33 {
+        flex: 13;
+    }
+
+    .dtl32 button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .dtl33 button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .dtlp1 {
+        color: darkgrey;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+    }
+
+    .dtlp2 {
+        font-size: 16px;
+        color: black;
+        font-weight: 500;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .dtlp3 {
+        font-size: 31px;
+        margin: 0;
+        line-height: 43px;
+        font-weight: 500;
+    }
+
+    .dtlp4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .dtlp5 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .nav-link {
+        min-width: 200px;
+        height: 50px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .nav-link.active {
+        color: red !important;
+    }
+
+    .nav-link:hover {
+        color: red;
+    }
+
+    .dtl01 {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dtl4 {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .dtl1 {
+        display: flex;
+        justify-content: flex-start;
+        padding: 40px 0px;
+        flex-direction: column;
+    }
+
+    .dtl2 {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .dtl21 {
+        border: 2px solid black;
+        height: 290px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .dtl21 img {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .dtl22 {
+        display: flex;
+        gap: 34px;
+    }
+
+    .dtl22 span {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+    }
+
+    .dtl3 {
+        flex: 1;
+    }
+
+    .dtl30 input {
+        margin: 25px 6px;
+        height: 15px;
+        width: 15px;
+    }
+
+    .dtl31 {
+        display: flex
+    }
+
+    .dtl32 {
+        flex: 1;
+    }
+
+    .dtl33 {
+        flex: 13;
+    }
+
+    .dtl32 button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .dtl33 button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .dtlp1 {
+        color: darkgrey;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+    }
+
+    .dtlp2 {
+        font-size: 16px;
+        color: black;
+        font-weight: 500;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .dtlp3 {
+        font-size: 31px;
+        margin: 0;
+        line-height: 43px;
+        font-weight: 500;
+    }
+
+    .dtlp4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .dtlp5 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .nav-link {
+        min-width: 200px;
+        height: 50px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .nav-link.active {
+        color: red !important;
+    }
+
+    .nav-link:hover {
+        color: red;
+    }
+
+    .dtl01 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dtl4 {
+        margin-bottom: 50px;
+    }
+
+}

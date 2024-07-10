@@ -1,0 +1,187 @@
+.lg1 {
+    background-image: url("https://media.gettyimages.com/id/1222457390/photo/small-business-owener-stock-photo.jpg?s=2048x2048&w=gi&k=20&c=5hVwRkSEiksXa4nFc2R_It0jopRF-rssY7lEQUFsJ7U=");
+    width: 98.9vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; */
+    position: relative;
+    filter: blur(4px);
+}
+
+.lg2 {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    border-radius: 20px;
+    border-color: rgb(59, 45, 45);
+}
+
+.lg2 input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.lg2 input:focus {
+    border: none;
+    outline: none;
+}
+
+.lg2 button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.lg2 p {
+    color: rgb(12, 2, 2);
+    font-size: 18px;
+    text-decoration-line: none;
+}
+
+.lg2 p:hover {
+    color: rgb(124, 64, 64);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .lg1 {
+        background-image: url("https://media.gettyimages.com/id/1222457390/photo/small-business-owener-stock-photo.jpg?s=2048x2048&w=gi&k=20&c=5hVwRkSEiksXa4nFc2R_It0jopRF-rssY7lEQUFsJ7U=");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto; */
+        position: relative;
+        filter: blur(4px);
+    }
+
+    .lg2 {
+        height: auto;
+        width: 95vw;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: transparent;
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        border-radius: 20px;
+        border-color: rgb(59, 45, 45);
+        padding-top: 20px;
+    }
+
+    .lg2 input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 10px;
+        border: none;
+    }
+
+    .lg2 input:focus {
+        border: none;
+        outline: none;
+    }
+
+    .lg2 button {
+        height: 35px;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .lg1 {
+        background-image: url("https://media.gettyimages.com/id/1222457390/photo/small-business-owener-stock-photo.jpg?s=2048x2048&w=gi&k=20&c=5hVwRkSEiksXa4nFc2R_It0jopRF-rssY7lEQUFsJ7U=");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto; */
+        position: relative;
+        filter: blur(4px);
+    }
+
+    .lg2 {
+        height: auto;
+        width: 75vw;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: transparent;
+        position: absolute;
+        top: 23%;
+        left: 12%;
+        border-radius: 20px;
+        border-color: rgb(59, 45, 45);
+        padding-top: 20px;
+    }
+
+    .lg2 input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 350px;
+        height: 43px;
+        border-radius: 5px;
+        padding: 10px;
+        border: none;
+    }
+
+    .lg2 input:focus {
+        border: none;
+        outline: none;
+    }
+
+    .lg2 button {
+        height: 35px;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+    }
+}

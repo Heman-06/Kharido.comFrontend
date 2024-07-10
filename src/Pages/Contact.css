@@ -1,0 +1,385 @@
+.cnt1 {
+    background-image: url('../Images/tamara-bellis-nbC4EyCxhb8-unsplash.jpg');
+    height: 500px;
+    width: 98.9vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 98.9vw 800px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Semi-transparent black overlay */
+    height: 100%;
+    width: 100%;
+
+}
+
+.cnt2 {
+    position: absolute;
+    top: 26vh;
+    left: 40vw;
+}
+
+.cnt2 h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.cnt4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.cnt5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 80px;
+}
+
+.cnt6 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cnt7 {
+    display: flex;
+    height: 70vh;
+    margin: 50px auto;
+    width: 70vw;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.cnt8 {
+    flex: 1;
+    height: 50%;
+    width: 100%;
+}
+
+.cnt9 {
+    flex: 1;
+    height: 80%;
+    width: 100%;
+}
+
+.cnt9 button {
+    margin: 0px 0px 0px 50px;
+
+}
+
+.my-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    gap: 10px;
+}
+
+.my-form label {
+    margin-bottom: 5px;
+    /* Add margin below each label */
+}
+
+.my-form input,
+.my-form textarea,
+button {
+    width: 80%;
+    /* Make inputs and select elements fill the width */
+    padding: 5px;
+    /* Include padding in width calculation */
+    margin: auto;
+    height: 50px;
+}
+
+.my-form textarea {
+    height: 120px;
+}
+
+.my-form button {
+    height: 40px;
+    width: 140px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .cnt1 {
+        background-image: url('../Images/tamara-bellis-nbC4EyCxhb8-unsplash.jpg');
+        height: 400px;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        /* Semi-transparent black overlay */
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .cnt2 {
+        position: absolute;
+        top: 23vh;
+        left: 14vw;
+    }
+
+    .cnt2 h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .cnt4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    .cnt5 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 80px;
+        gap: 10px;
+    }
+
+    .cnt6 {
+        height: 200px;
+        width: 250px;
+        border: 2px solid black;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .cnt7 {
+        display: flex;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 90px;
+        width: 95vw;
+        align-items: center;
+        padding: 10px;
+        gap: 40px;
+        flex-direction: column;
+        box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .cnt8 {
+        flex: 1;
+        height: 50%;
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cnt9 {
+        flex: 1;
+        height: 80%;
+        /* width: 100%; */
+    }
+
+    .cnt9 button {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .my-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .my-form label {
+        margin-bottom: 5px;
+        /* Add margin below each label */
+    }
+
+    .my-form input,
+    button {
+        width: 80%;
+        /* Make inputs and select elements fill the width */
+        padding: 5px;
+        /* Include padding in width calculation */
+        margin: auto;
+
+        height: 50px;
+    }
+
+    .my-form textarea {
+        height: 120px;
+    }
+
+    .my-form button {
+        height: 40px;
+        width: 140px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    .cnt1 {
+        background-image: url('../Images/tamara-bellis-nbC4EyCxhb8-unsplash.jpg');
+        height: 400px;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        /* Semi-transparent black overlay */
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .cnt2 {
+        position: absolute;
+        top: 15vh;
+        left: 36vw;
+    }
+
+    .cnt2 h1 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .cnt4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    .cnt5 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 80px;
+        gap: 10px;
+    }
+
+    .cnt6 {
+        height: 200px;
+        width: 250px;
+        border: 2px solid black;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .cnt7 {
+        display: flex;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 90px;
+        width: 75vw;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;
+        box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .cnt8 {
+        flex: 1;
+        height: 50%;
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .cnt9 {
+        flex: 1;
+        height: 80%;
+        /* width: 100%; */
+    }
+
+    .cnt9 button {
+        margin: 0px 0px 0px 63px;
+
+    }
+
+    .my-form {
+        display: flex;
+        flex-direction: column;
+        /* align-items: start; */
+        gap: 10px;
+    }
+
+    .my-form label {
+        margin-bottom: 5px;
+        /* Add margin below each label */
+    }
+
+    .my-form input,
+    .my-form textarea,
+    button {
+        width: 80%;
+        /* Make inputs and select elements fill the width */
+        padding: 5px;
+        /* Include padding in width calculation */
+        margin: auto;
+        height: 50px;
+    }
+
+    .my-form textarea {
+        height: 120px;
+    }
+
+    .my-form button {
+        height: 40px;
+        width: 140px;
+    }
+}

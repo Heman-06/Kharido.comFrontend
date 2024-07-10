@@ -1,0 +1,24 @@
+.fltr1{
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.fltr2{
+    flex: 1;
+    border-right: 2px black solid;
+}
+
+.fltr3{
+    flex: 3.5;
+}
+.men1{
+    width: 100vw;
+    background-color: aqua;
+    padding: 30px;
+}
+.men2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
